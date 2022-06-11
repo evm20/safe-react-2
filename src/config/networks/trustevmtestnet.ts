@@ -11,14 +11,14 @@ import {
 import { fuseBalancesHandler } from 'src/logic/safe/api/fetchTokenCurrenciesBalances'
 
 const baseConfig: EnvironmentSettings = {
-  clientGatewayUrl: 'https://safe-service.fuse.io/cgw/v1',
-  txServiceUrl: 'https://safe-service.fuse.io/txs/api/v1',
+  clientGatewayUrl: 'https://137.184.233.188/cgw/v1',
+  txServiceUrl: 'https://137.184.233.188/txs/api/v1',
   gasPrice: 1e9, // 1 Gwei TODO: add gasPriceOracles
-  rpcServiceUrl: 'https://rpc.fuse.io',
-  safeAppsRpcServiceUrl: 'https://rpc.fuse.io',
+  rpcServiceUrl: 'https://api.testnet-dev.trust.one',
+  safeAppsRpcServiceUrl: 'https://api.testnet-dev.trust.one',
   networkExplorerName: 'TrustEVM Explorer',
-  networkExplorerUrl: 'https://www.trustexplorer.one',
-  networkExplorerApiUrl: 'https://www.trustexplorer.one',
+  networkExplorerUrl: 'https://trustscan.one/',
+  networkExplorerApiUrl: 'https://trustscan.one/',
 }
 
 const trustevmtestnet: NetworkConfig = {
