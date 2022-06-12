@@ -11,8 +11,8 @@ import {
 import { fuseBalancesHandler } from 'src/logic/safe/api/fetchTokenCurrenciesBalances'
 
 const baseConfig: EnvironmentSettings = {
-  clientGatewayUrl: 'https://137.184.233.188/cgw/v1',
-  txServiceUrl: 'https://137.184.233.188/txs/api/v1',
+  clientGatewayUrl: 'https://142.93.56.36/cgw/v1',
+  txServiceUrl: 'https://142.93.56.36/txs/api/v1',
   gasPrice: 1e9, // 1 Gwei TODO: add gasPriceOracles
   rpcServiceUrl: 'https://api.testnet-dev.trust.one',
   safeAppsRpcServiceUrl: 'https://api.testnet-dev.trust.one',
